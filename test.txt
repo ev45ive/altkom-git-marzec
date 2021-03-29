@@ -1,2 +1,0 @@
-Witaj w GIT !!!
-Jest super!
