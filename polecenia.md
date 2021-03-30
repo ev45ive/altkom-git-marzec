@@ -377,3 +377,12 @@ git remote
 error: failed to push some refs to 'C:/Projects/altkom/git-altkom-marzec/projekt/'
  
 ## A <-> Hub <-> B  
+
+
+
+## Remote branch
+git push --set-upstream origin nazwa_lokalna:nazwa_zdalna
+
+git push origin :konflikt
+To https://github.com/ev45ive/altkom-git-marzec.git
+ - [deleted]         konflikt
