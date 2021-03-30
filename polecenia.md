@@ -354,3 +354,13 @@ git merge nazwa_brancha
 git merge nazwa_brancha --only-ff
 git merge nazwa_brancha --no-ff
 
+## Chery pick one commit
+git cherry-pick 90ede47 23w5g44 9q43240
+
+
+## Excercise
+- create WIP branch from master
+- add page header, commit
+- create WIP branch from master
+- add page footer commit
+- 
