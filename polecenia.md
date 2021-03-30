@@ -294,3 +294,24 @@ pick 56d7122 Polecenia i notatki
 #
 # If you remove a line here THAT COMMIT WILL BE LOST.
 ```
+
+## Add patch
+ <nav>
+     <ul>
+       <li><a href="index.html">Strona głowna</a></li>   
++      <li><a href="strony/kontakt.html">Kontakt</a></li>
+     </ul>
+   </nav>
+   
+(1/2) Stage this hunk [y,n,q,a,d,j,J,g,/,e,?]? ?
+y - stage this hunk
+n - do not stage this hunk
+q - quit; do not stage this hunk or any of the remaining ones   
+a - stage this hunk and all later hunks in the file
+d - do not stage this hunk or any of the later hunks in the file
+g - select a hunk to go to
+/ - search for a hunk matching the given regex
+j - leave this hunk undecided, see next undecided hunk
+J - leave this hunk undecided, see next hunk
+e - manually edit the current hunk
+? - print help
