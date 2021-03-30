@@ -371,3 +371,9 @@ git pull  // git fetch + git merge FETCH_ORIGIN
 git push
 git clone
 git remote
+
+##  A <-> B 
+! [remote rejected] master -> master (branch is currently checked out)
+error: failed to push some refs to 'C:/Projects/altkom/git-altkom-marzec/projekt/'
+ 
+## A <-> Hub <-> B  
