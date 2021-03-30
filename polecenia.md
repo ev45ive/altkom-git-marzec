@@ -258,3 +258,39 @@ git reset --hard <commitRef>
 
 git reset --mixed <commitRef>
 git reset --soft <commitRef>
+
+## Rebase
+git rebase -i 53c1c5d
+
+```bash
+reword 25cb344 Revert "Removed test.txt"
+f 3759379 Revert "Trzeci commit - poprawki, triple bang!"
+f e19ccbc Revert "Drugi commit - Text with bang!"
+pick 54b43b3 Porcelain + Plumbing - puste katalogi
+e 741638b Git Ignore
+pick f7dbad9 Nagłowek i podstrony
+label naglowek
+pick 56d7122 Polecenia i notatki
+
+# Rebase 53c1c5d..56d7122 onto 53c1c5d (7 commands)
+#
+# Commands:
+# p, pick <commit> = use commit
+# r, reword <commit> = use commit, but edit the commit message
+# e, edit <commit> = use commit, but stop for amending
+# s, squash <commit> = use commit, but meld into previous commit
+# f, fixup <commit> = like "squash", but discard this commit's log message
+# x, exec <command> = run command (the rest of the line) using shell
+# b, break = stop here (continue rebase later with 'git rebase --continue')
+# d, drop <commit> = remove commit
+# l, label <label> = label current HEAD with a name
+# t, reset <label> = reset HEAD to a label
+# m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
+# .       create a merge commit using the original merge commit's
+# .       message (or the oneline, if no original merge commit was
+# .       specified). Use -c <commit> to reword the commit message.
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+```
