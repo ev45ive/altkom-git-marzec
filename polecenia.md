@@ -364,3 +364,7 @@ git cherry-pick 90ede47 23w5g44 9q43240
 - create WIP branch from master
 - add page footer commit
 - 
+
+## Remote work
+git clone
+git remote
