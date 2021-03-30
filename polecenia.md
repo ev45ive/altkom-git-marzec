@@ -315,3 +315,6 @@ j - leave this hunk undecided, see next undecided hunk
 J - leave this hunk undecided, see next hunk
 e - manually edit the current hunk
 ? - print help
+
+## Pusty commit
+ git commit -m "Strona do opublikowania" --allow-empty
