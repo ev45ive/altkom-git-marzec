@@ -317,4 +317,40 @@ e - manually edit the current hunk
 ? - print help
 
 ## Pusty commit
- git commit -m "Strona do opublikowania" --allow-empty
+git commit -m "Strona do opublikowania" --allow-empty
+
+## Create branch
+git branch nazwa_brancha <hash>
+
+## delete
+git branch -d nazwa_brancha
+
+## Create branch
+git checkout -b nazwa_brancha
+git switch -c nazwa_brancha
+
+# Switch to branch
+git checkout nazwa_brancha
+git switch nazwa_brancha
+
+## work on branch
+git commit ...
+ 
+
+### Update branch with lastes master
+// when master changed 
+
+git switch nazwa_brancha
+
+git merge master
+// or
+git rebase master
+
+### merge branch into master
+git merge master
+git merge nazwa_brancha
+
+## Fast-forwartd
+git merge nazwa_brancha --only-ff
+git merge nazwa_brancha --no-ff
+
