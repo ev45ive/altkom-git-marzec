@@ -1,1 +1,3 @@
 Witaj w GIT
+
+// pozdrawiam, tk :)
