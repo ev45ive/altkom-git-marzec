@@ -369,3 +369,5 @@ git cherry-pick 90ede47 23w5g44 9q43240
 git fetch  
 git pull  // git fetch + git merge FETCH_ORIGIN
 git push
+git clone
+git remote
